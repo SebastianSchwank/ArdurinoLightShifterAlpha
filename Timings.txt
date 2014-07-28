@@ -1,0 +1,23 @@
+2,5Mhz  = 0,4 usec shortPulse
+1,25Mhz = 0,8 usec longPulse
+
+BitCycle 1,2 usec
+
+myFreq 62500 * 256
+
+// -> ~ 8Instructions per Short-Pulse
+// -> ~ 16Instructions per Long-Pulse
+
+PWM Cycle 16 usec
+
+pre 64
+TOP auf 10
+
+
+|----------|
+
+
+2.5 Divs = Flanke zu Flanke
+1 Div = 0.2 us
+
+0.2us * 2.5Divs = 0.5 us
